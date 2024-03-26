@@ -1,0 +1,5 @@
+services:
+  - name: serpapi-backend
+    type: npm
+    buildCommand: npm install
+    startCommand: node server.js
